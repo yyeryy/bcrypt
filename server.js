@@ -8,6 +8,8 @@ const saltRounds = 12;
 const myPlaintextPassword = 'sUperpassw0rd!';
 const someOtherPlaintextPassword = 'pass123';
 
+//CÓDIGO PROPIO
+const bcrypt = require('bcrypt');
 
 //START_ASYNC -do not remove notes, place code between correct pair of notes.
 
